@@ -127,12 +127,10 @@ body {
 }
 
 .up:hover {
-  border-bottom: 10px solid #9cadd1;
   border-bottom: 10px solid #f9ff38;
 }
 
 .down:hover {
-  border-top: 10px solid #9cadd1;
   border-top: 10px solid #f9ff38;
 }
 
