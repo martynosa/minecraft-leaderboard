@@ -111,7 +111,7 @@ body {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 
-  border-bottom: 10px solid #f6f06b;
+  border-bottom: 10px solid #9cadd1;
   transition: all 0.3s;
 }
 
@@ -122,16 +122,18 @@ body {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 
-  border-top: 10px solid #f9ff38;
+  border-top: 10px solid #6d829f;
   transition: all 0.3s;
 }
 
 .up:hover {
   border-bottom: 10px solid #9cadd1;
+  border-bottom: 10px solid #f9ff38;
 }
 
 .down:hover {
   border-top: 10px solid #9cadd1;
+  border-top: 10px solid #f9ff38;
 }
 
 .img-box {
