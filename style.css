@@ -27,7 +27,7 @@ body {
 }
 
 .leaderboard-container {
-  max-width: 92rem;
+  max-width: 72rem;
   margin: 0 auto;
   padding: 3.2rem;
   display: flex;
