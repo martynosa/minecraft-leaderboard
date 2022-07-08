@@ -58,12 +58,14 @@ body {
 .navBtn:hover {
   background-color: #9cadd1;
   border: inset 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 1);
   color: #f6f06b;
 }
 
 .active {
   background-color: #6d829f;
   border: inset 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 1);
   color: #f6f06b;
 }
 
@@ -88,12 +90,12 @@ body {
 
 .row {
   background-color: #8c8c8c;
-  box-shadow: 0px 0px 0px 2px black;
+  box-shadow: 0px 0px 0px 1px black;
   transition: all 0.3s;
 }
 
 .row:hover {
-  box-shadow: inset 0px 0px 0px 3px black;
+  box-shadow: inset 0px 0px 0px 2px black;
   background-color: #9cadd1;
   color: #f6f06b;
 }
