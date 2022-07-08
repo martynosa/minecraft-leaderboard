@@ -21,13 +21,13 @@ body {
 
 .container {
   height: 100vh;
-  background-image: url(./img//d99f1iq-05677d3f-ed6b-4aa2-9750-ad0240687e93.png);
+  background-image: url(./img/d99f1iq-05677d3f-ed6b-4aa2-9750-ad0240687e93.png);
   background-size: cover;
   display: flex;
 }
 
 .leaderboard-container {
-  max-width: 72rem;
+  max-width: 92rem;
   margin: 0 auto;
   padding: 3.2rem;
   display: flex;
