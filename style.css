@@ -35,6 +35,38 @@ body {
   justify-content: center;
 }
 
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+
+.navBtn {
+  width: 16rem;
+  padding: 0.8rem 1.6rem;
+  background-color: #d9d9d9;
+  border: outset 3px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+  border-radius: 3px;
+  font-family: inherit;
+  color: #fff;
+  color: #545454;
+  font-size: 2.4rem;
+  transition: all 0.3s;
+}
+
+.navBtn:hover {
+  background-color: #9cadd1;
+  border: inset 3px rgba(0, 0, 0, 0.1);
+  color: #f6f06b;
+}
+
+.active {
+  background-color: #6d829f;
+  border: inset 3px rgba(0, 0, 0, 0.1);
+  color: #f6f06b;
+}
+
 .leaderboard-table {
   table-layout: fixed;
   width: 100%;
@@ -44,7 +76,7 @@ body {
   background-color: #d9d9d9;
   padding: 0 1.2rem;
   border: outset 7px rgba(255, 255, 255, 1);
-  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
   border-radius: 3px;
 }
 
@@ -78,6 +110,7 @@ body {
   border-right: 10px solid transparent;
 
   border-bottom: 10px solid #f6f06b;
+  transition: all 0.3s;
 }
 
 .down {
@@ -88,14 +121,15 @@ body {
   border-right: 10px solid transparent;
 
   border-top: 10px solid #f9ff38;
+  transition: all 0.3s;
 }
 
 .up:hover {
-  border-bottom: 10px solid #ffdd38;
+  border-bottom: 10px solid #9cadd1;
 }
 
 .down:hover {
-  border-top: 10px solid #ffdd38;
+  border-top: 10px solid #9cadd1;
 }
 
 .img-box {
