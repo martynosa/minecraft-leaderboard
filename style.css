@@ -21,7 +21,7 @@ body {
 
 .container {
   height: 100vh;
-  background-image: url(/img//d99f1iq-05677d3f-ed6b-4aa2-9750-ad0240687e93.png);
+  background-image: url(./img//d99f1iq-05677d3f-ed6b-4aa2-9750-ad0240687e93.png);
   background-size: cover;
   display: flex;
 }
